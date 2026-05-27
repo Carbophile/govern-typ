@@ -10,7 +10,7 @@ keywords = ["article", "bylaws", "formal", "governance", "legal"]
 license = "MIT"
 name = "govern"
 repository = "https://github.com/Carbophile/govern-typ"
-version = "0.2.0"
+version = "0.2.1"
 
 [template]
 entrypoint = "main.typ"

@@ -9,12 +9,14 @@ A clean, traditional [Typst](https://typst.app/) template for formal governance 
 </div>
 
 Originally made for my work at [Carbophile Group](https://carbophile.org/) due to a lack of governance templates in
-English. I decided to make it public so all kinds of organizations can benefit.
+English.
+
+I decided to make it public so all kinds of organizations can benefit.
 
 ## Example
 
 ```typst
-#import "@preview/govern:0.2.0": govern
+#import "@preview/govern:0.2.1": govern
 
 #set document(
   title: "Bylaws of Carbophile Group",
@@ -63,7 +65,7 @@ Any natural person shall be eligible for membership.
 Native Typst parameters `document.title`, `document.author`, and `document.date` must be set before initializing the
 template.
 
-`document.date` should not be left at the default `auto` and can instead be set to `datetime.today()` to replicate the
+`document.date` must not be left at the default `auto` and can instead be set to `datetime.today()` to replicate the
 default behavior.
 
 ### Options Reference

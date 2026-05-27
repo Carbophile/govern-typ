@@ -1,4 +1,4 @@
-#import "@preview/govern:0.2.0": govern
+#import "@preview/govern:0.2.1": govern
 
 #set document(
   title: "Bylaws of Carbophile Group",
